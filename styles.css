@@ -562,10 +562,10 @@ button {
 .event-note {
   margin-top: 28px;
   background: rgba(0, 0, 0, 0.35);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(248, 245, 245, 0.205);
   border-radius: 18px;
   padding: 18px 18px;
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.856);
 }
 
 .event-cta {
