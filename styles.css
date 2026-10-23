@@ -1,10 +1,6 @@
 :root {
   --bg: #050505;
   --bg-alt: #101010;
-  --panel: rgba(18, 18, 18, 0.9);
-  --panel-strong: #111111;
-  --card: #131313;
-  --card-soft: #18181b;
   --line: rgba(255, 255, 255, 0.08);
   --text: #f5f5f5;
   --muted: #9ca3af;
