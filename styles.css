@@ -282,11 +282,12 @@ button {
   margin-top: 48px;
 }
 
+/* Blocos */
 .feature-card,
 .metric-card,
 .history-card,
 .card {
-  background: rgba(255, 255, 255, 0.015);
+  background: rgba(110, 108, 108, 0.158);
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 28px;
   box-shadow: var(--shadow);
