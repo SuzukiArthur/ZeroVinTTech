@@ -172,7 +172,6 @@ button {
 
 .page {
   display: none;
-  min-height: calc(100vh - 160px);
   padding: 10px 0;
 }
 
