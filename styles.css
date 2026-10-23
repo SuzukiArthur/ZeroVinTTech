@@ -660,3 +660,14 @@ button {
   }
   
 }
+
+.contato-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.contato-grid .feature-card {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
