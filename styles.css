@@ -654,11 +654,12 @@ button {
     flex-direction: column;
     align-items: stretch;
   }
-    .header-actions {
+
+  .header-actions {
     width: 100%;
     justify-content: space-between;
   }
-  
+
 }
 
 .contato-grid {
