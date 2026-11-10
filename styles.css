@@ -626,9 +626,13 @@ button {
 }
 
 
+
 @media (max-width: 900px) {
 
-  .donation-grid,
+  .donation-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .feature-grid,
   .metric-grid,
   .history-grid,
@@ -649,6 +653,10 @@ button {
 
 @media (max-width: 640px) {
 
+  .donation-grid {
+    grid-template-columns: 1fr;
+  }
+
   .hero-actions,
   .section-head {
     flex-direction: column;
@@ -659,16 +667,4 @@ button {
     width: 100%;
     justify-content: space-between;
   }
-
-}
-
-.contato-grid {
-  display: flex;
-  justify-content: center;
-}
-
-.contato-grid .feature-card {
-  width: 100%;
-  max-width: 400px;
-  text-align: center;
 }
